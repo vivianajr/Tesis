@@ -1,9 +1,9 @@
 export default{
 
   database:{
-    host: "199.79.62.144",
-    user: 'ingnovat_stiven',
-    password: '#Ing2017',
+    host: "172.16.5.95",
+    user: '',
+    password: '',
     database: 'ingnovat_prueba'
   }
 
