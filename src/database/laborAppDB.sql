@@ -1,5 +1,8 @@
-CREATE TABLE Temperatura(
-Valor FLOAT(100) NOT NULL,
-id varchar(200) NOT NULL,
+USE TesisDB;
+
+
+CREATE TABLE temperatura(
+valor FLOAT(100,30) NOT NULL,
+id VARCHAR(200) NOT NULL,
 PRIMARY KEY(id)
 );
