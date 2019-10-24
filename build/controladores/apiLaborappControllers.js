@@ -28,7 +28,7 @@ class ApiLaborappControllers {
         return __awaiter(this, void 0, void 0, function* () {
             console.log("Esto es lo que recibe");
             console.log(req.body);
-            console.log("---------------------");
+            console.log("----------------------");
             //const resultado = await database.query("INSERT INTO temperatura set ?", [req.body]);
             res.status(200).json({
             //resultado

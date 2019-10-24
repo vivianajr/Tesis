@@ -31,13 +31,14 @@ class ApiLaborappControllers{
     console.log("Esto es lo que recibe")
     console.log(req.body)
     console.log("----------------------")
-
+    const resultado = req.body;
 
 
     //const resultado = await database.query("INSERT INTO temperatura set ?", [req.body]);
 
     res.status(200).json({
-      //resultado
+      resultado
+      
     })
 
   }
