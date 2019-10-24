@@ -1,6 +1,6 @@
 import { Request, Response } from 'express';
 
-//import database from '../database/connection';
+import database from '../database/connection';
 
 
 class ApiLaborappControllers{
@@ -18,11 +18,11 @@ class ApiLaborappControllers{
   public async get( req:Request, res:Response ): Promise<void>{
 
 
-    //const personsa = await database.query('SELECT * FROM Personas')
+    const personas = await database.query('SELECT * FROM Temperatura')
 
 
     res.status(200).json({
-      //personas
+      personas
     })
 
   }
@@ -34,7 +34,6 @@ class ApiLaborappControllers{
     //const resultado = await database.query("INSERT INTO Personas set ?", [req.body]);
 
     res.status(200).json({
-      //resultado
     })
 
   }

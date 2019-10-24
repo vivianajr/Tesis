@@ -1,10 +1,10 @@
 export default{
 
   database:{
-    host: "172.16.5.95",
-    user: '',
-    password: '',
-    database: 'ingnovat_prueba'
+    host: "ritaportal.udistrital.edu.co",
+    user: 'root',
+    password: 'ok',
+    database: 'TesisDB'
   }
 
 

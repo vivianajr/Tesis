@@ -2,9 +2,9 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.default = {
     database: {
-        host: "199.79.62.144",
-        user: 'ingnovat_stiven',
-        password: '#Ing2017',
-        database: 'ingnovat_prueba'
+        host: "ritaportal.udistrital.edu.co",
+        user: 'root',
+        password: 'ok',
+        database: 'TesisDB'
     }
 };
