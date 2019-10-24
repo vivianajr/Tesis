@@ -18,7 +18,7 @@ class ApiLaborappControllers {
     }
     get(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            const personas = yield connection_1.default.query('SELECT * FROM Temperatura');
+            const personas = yield connection_1.default.query('SELECT * FROM temperatura');
             res.status(200).json({
                 personas
             });
@@ -26,8 +26,13 @@ class ApiLaborappControllers {
     }
     post(req, res) {
         return __awaiter(this, void 0, void 0, function* () {
-            //const resultado = await database.query("INSERT INTO Personas set ?", [req.body]);
-            res.status(200).json({});
+            console.log("Esto es lo que recibe");
+            console.log(req.body);
+            console.log("---------------------");
+            //const resultado = await database.query("INSERT INTO temperatura set ?", [req.body]);
+            res.status(200).json({
+            //resultado
+            });
         });
     }
 }
