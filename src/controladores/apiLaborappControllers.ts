@@ -30,7 +30,7 @@ class ApiLaborappControllers{
   public async post( req: Request, res: Response ): Promise<void>{
     console.log("Esto es lo que recibe")
     console.log(req.body)
-    console.log("---------------------")
+    console.log("----------------------")
 
 
 
