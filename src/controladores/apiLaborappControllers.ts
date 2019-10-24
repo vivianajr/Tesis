@@ -30,9 +30,10 @@ class ApiLaborappControllers{
   public async post( req: Request, res: Response ): Promise<void>{
     console.log(req.body)
     
-    //const resultado = await database.query("INSERT INTO Personas set ?", [req.body]);
+    const resultado = await database.query("INSERT INTO temperatura set ?", [req.body]);
 
     res.status(200).json({
+      resultado
     })
 
   }
