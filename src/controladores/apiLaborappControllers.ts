@@ -18,7 +18,7 @@ class ApiLaborappControllers{
   public async get( req:Request, res:Response ): Promise<void>{
 
 
-    const personas = await database.query('SELECT * FROM Temperatura')
+    const personas = await database.query('SELECT * FROM temperatura')
 
 
     res.status(200).json({
